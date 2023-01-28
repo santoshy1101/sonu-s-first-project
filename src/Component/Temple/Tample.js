@@ -17,8 +17,8 @@ const Tample = () => {
   },[])
 
   return (
-    <div className=" flex flex-col gap-y-16 pb-20 items-center  ">
-      <div className=" flex flex-col-reverse items-center gap-y-8 justify-between">
+    <div className="flex flex-col items-center pb-20 gap-y-16">
+      <div className="flex flex-col-reverse items-center justify-between gap-y-8">
         <div className="lg:w-[900px] shadow-3xl group sm:w-[600px] sm:h-[500px] min-[500px]:w-[400px] min-[320px]:w-[270px]   rounded-3xl overflow-hidden">
           <img
             className="w-[100%]   group-hover:scale-110 duration-700 h-[100%] object-fill"
@@ -28,7 +28,7 @@ const Tample = () => {
         </div>
         <div className="">
           <div className="font-extrabold m-auto text-center justify-center flex flex-col gap-y-8  ring-cyan-700 w-[90%] px-4 p-4">
-            <p className="lg:text-6xl md:text-3xl html rounded-full  text-slate-50 bg-orange-800 pt-5 pb-3  ">
+            <p className="pt-5 pb-3 bg-orange-800 rounded-full lg:text-6xl md:text-3xl html text-slate-50 ">
               श्री श्री 108 रूद्र महायज्ञ
             </p>
             <h3 className="lg:text-4xl md:text-2xl lg:leading-[3.5rem] md:leading-[2.5rem]">
@@ -38,8 +38,8 @@ const Tample = () => {
             </h3>
 
             <div className="flex flex-col gap-y-5">
-              <p className="text-2xl text-red-800 font-extrabold ">
-                भाग लेने की बटन पर क्लिक करे{' '}
+              <p className="text-2xl font-extrabold text-red-800 ">
+                भाग लेने के लिए बटन पर क्लिक करे{' '}
               </p>
               <Link to={'/sigin'}>
                 <button className="bg-slate-600 text-slate-50 text-2xl font-serif duration-500 rounded-xl hover:scale-125 hover:shadow-3xl  shadow-2xl shadow-[#ffd238] px-4 py-2  ">
@@ -60,9 +60,9 @@ const Tample = () => {
 
       <div>
 
-        <div className="flex flex-col items-center gap-y-16  ">
+        <div className="flex flex-col items-center gap-y-16 ">
         <div className='group md:text-2xl sm:text-lg lg:w-[60%]  md:w-[90%]  sm:w-[80%] font-semibold text-slate-50 rounded-full req min-[320px]:w-[90%] text-[12px]  overflow-hidden'>
-        <ul className="list-disc group-hover:scale-110 duration-700  px-16 py-8 ">
+        <ul className="px-16 py-8 list-disc duration-700 group-hover:scale-110 ">
         <li>कथा का समय सुबह के ९ बजे से शाम के ३ बजे तक </li>
         <li>भंडारा का कार्येक्रम पूरा दिन रहेगा</li>
         <li>
